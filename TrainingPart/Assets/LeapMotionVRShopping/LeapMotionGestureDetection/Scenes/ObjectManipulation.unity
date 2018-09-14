@@ -3200,7 +3200,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 451565554}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44e0f2a0a08ea6840be307593eaf857b, type: 3}
   m_Name: 
@@ -9160,11 +9160,11 @@ Prefab:
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1786542396}
+      objectReference: {fileID: 1786542398}
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: showthmenu
+      value: ShowNextMenu
       objectReference: {fileID: 0}
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
