@@ -1460,7 +1460,7 @@ Prefab:
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4281139855099232, guid: edf23e201337d4549b5360f3f9c016f4, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1534,6 +1534,31 @@ Prefab:
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
+        type: 2}
+      propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
+        type: 2}
+      propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
+        type: 2}
+      propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 451565555}
+    - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
+        type: 2}
+      propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: HideTheFirstMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
+        type: 2}
+      propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
