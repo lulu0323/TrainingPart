@@ -6,7 +6,7 @@ public class hideTheMenu : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        hidethemenu();
+        //hidethemenu();
     }
 	
 	// Update is called once per frame
