@@ -23,6 +23,7 @@ public class ExplanationMenuManager : MonoBehaviour {
     public void ShowNextMenu()
     {
         gameObject.SetActive(true);
+        Debug.Log("ShowNextMenuinvoked");
     }
 
 }
