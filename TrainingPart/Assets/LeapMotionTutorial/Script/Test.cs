@@ -19,7 +19,7 @@ public class Test : MonoBehaviour {
 		
 	}
 
-    public void hidethemenu()
+    public void HideTheFirstMenu()
     {
         gameObject.SetActive(false);
     }
