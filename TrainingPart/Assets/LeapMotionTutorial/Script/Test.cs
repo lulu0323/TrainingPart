@@ -21,7 +21,13 @@ public class Test : MonoBehaviour {
 
     public void HideTheFirstMenu()
     {
+        Debug.Log("The HideTheFirstMenu is Invoked");
         gameObject.SetActive(false);
     }
+
+    //public void showthmenu()
+    //{
+      //  gameObject.SetActive(true);
+    //}
 
 }
