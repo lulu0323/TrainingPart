@@ -25,9 +25,9 @@ public class Test : MonoBehaviour {
         gameObject.SetActive(false);
     }
 
-    //public void showthmenu()
-    //{
-      //  gameObject.SetActive(true);
-    //}
+    public void showthmenu()
+    {
+        gameObject.SetActive(true);
+    }
 
 }
