@@ -34,7 +34,7 @@ public class delay : MonoBehaviour
     {
 
         print(Time.time);
-        Invoke("showthmenu", 2);
+        Invoke("showthmenu", 1);
         print(Time.time);
 
 
