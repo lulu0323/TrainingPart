@@ -30,4 +30,18 @@ public class Test : MonoBehaviour {
         gameObject.SetActive(true);
     }
 
+    public void delayshowthemenu()
+    {
+
+        print(Time.time);
+        Invoke("showthmenu", 1);
+        print(Time.time);
+
+
+        Debug.Log("invokeTest");
+
+
+
+    }
+
 }

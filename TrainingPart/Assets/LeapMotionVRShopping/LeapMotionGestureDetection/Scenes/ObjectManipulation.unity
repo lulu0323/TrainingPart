@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17301625, g: 0.2162327, b: 0.29822254, a: 1}
+  m_IndirectSpecularColor: {r: 0.17301577, g: 0.2162321, b: 0.29822126, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2196,7 +2196,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 291698155}
-  - component: {fileID: 291698154}
   - component: {fileID: 291698156}
   m_Layer: 0
   m_Name: LP Structure3
@@ -2205,17 +2204,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!114 &291698154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 291698153}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44e0f2a0a08ea6840be307593eaf857b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &291698155
 Transform:
   m_ObjectHideFlags: 0
@@ -2712,7 +2700,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 391227381}
-  - component: {fileID: 391227380}
   - component: {fileID: 391227382}
   m_Layer: 0
   m_Name: LP Structure2
@@ -2721,17 +2708,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!114 &391227380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 391227379}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44e0f2a0a08ea6840be307593eaf857b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &391227381
 Transform:
   m_ObjectHideFlags: 0
@@ -4785,7 +4761,7 @@ Prefab:
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 966226219}
+      objectReference: {fileID: 0}
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -7062,7 +7038,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 966226220}
-  - component: {fileID: 966226219}
   - component: {fileID: 966226218}
   m_Layer: 0
   m_Name: LP Structure4
@@ -7080,17 +7055,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b63a6e301ed19e74ca41ba3b7aa54b4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &966226219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 966226217}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44e0f2a0a08ea6840be307593eaf857b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &966226220
@@ -7384,7 +7348,7 @@ Prefab:
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 391227380}
+      objectReference: {fileID: 391227382}
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -7939,8 +7903,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1076427418}
-  - component: {fileID: 1076427417}
-  - component: {fileID: 1076427416}
   - component: {fileID: 1076427419}
   m_Layer: 0
   m_Name: LP Structure0.1
@@ -7949,28 +7911,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!114 &1076427416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1076427415}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b63a6e301ed19e74ca41ba3b7aa54b4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1076427417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1076427415}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44e0f2a0a08ea6840be307593eaf857b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1076427418
 Transform:
   m_ObjectHideFlags: 0
@@ -9516,7 +9456,7 @@ Prefab:
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 391227380}
+      objectReference: {fileID: 391227382}
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -10507,7 +10447,7 @@ Prefab:
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 966226219}
+      objectReference: {fileID: 966226218}
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -10890,11 +10830,11 @@ Prefab:
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1786542396}
+      objectReference: {fileID: 291698156}
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: showthmenu
+      value: hidethemenu
       objectReference: {fileID: 0}
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
@@ -11520,7 +11460,7 @@ Prefab:
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 291698154}
+      objectReference: {fileID: 291698156}
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -15214,7 +15154,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1841037634}
-  - component: {fileID: 1841037633}
   - component: {fileID: 1841037632}
   m_Layer: 0
   m_Name: LP Structure1.1
@@ -15232,17 +15171,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b63a6e301ed19e74ca41ba3b7aa54b4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1841037633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1841037631}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44e0f2a0a08ea6840be307593eaf857b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1841037634
@@ -16543,7 +16471,7 @@ Prefab:
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1841037633}
+      objectReference: {fileID: 1841037632}
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -16568,7 +16496,7 @@ Prefab:
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 391227380}
+      objectReference: {fileID: 391227382}
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -16597,13 +16525,18 @@ Prefab:
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: showthmenu
+      value: delayshowthemenu
       objectReference: {fileID: 0}
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
+        type: 2}
+      propertyPath: _manager
+      value: 
+      objectReference: {fileID: 575771688}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edf23e201337d4549b5360f3f9c016f4, type: 2}
   m_IsPrefabParent: 0
@@ -17071,7 +17004,7 @@ Prefab:
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1841037633}
+      objectReference: {fileID: 1841037632}
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -17100,7 +17033,7 @@ Prefab:
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: showthmenu
+      value: delayshowthemenu
       objectReference: {fileID: 0}
     - target: {fileID: 114389146438797254, guid: edf23e201337d4549b5360f3f9c016f4,
         type: 2}
