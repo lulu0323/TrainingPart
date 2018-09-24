@@ -8,7 +8,7 @@ public class GestureContentManager : MonoBehaviour
 
     public int m_currentIndex = 0;
 
-    //public GameObject GrabPanel_0;
+    public GameObject TestPanel_0;//第0块板子，初始无内容的板子
     public GameObject GrabPanel_1;
     public GameObject EnlargePanel_2;
     public GameObject ShrinkPanel_3;
@@ -23,6 +23,7 @@ public class GestureContentManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        SelectDictionary.Add(0, TestPanel_0);//放在一个空板子上面作为第0块板子，板子一开始被deactive的时候不会有影响
         SelectDictionary.Add(1, GrabPanel_1);
         SelectDictionary.Add(2, EnlargePanel_2);
         SelectDictionary.Add(3, ShrinkPanel_3);
@@ -33,9 +34,7 @@ public class GestureContentManager : MonoBehaviour
         SelectDictionary.Add(8, SizePanel_8);
         SelectDictionary.Add(9, CollectPanel_9);
         SelectDictionary.Add(10, BoxPanel_10);
-        //GrabPanel_1.SetActive(false);
-
-      //  SelectDictionary.Add(10, 0);
+       
     }
 
     // Update is called once per frame
