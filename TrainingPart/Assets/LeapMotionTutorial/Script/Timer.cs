@@ -152,11 +152,11 @@ public class Timer : MonoBehaviour
 
     {
         Debug.Log("This is the end of game!");
-        foreach (var item in timerDictionary)
-        {
-            Debug.Log("This is the " + item.Key + "Plane");
-            Debug.Log("and the Time count is" + item.Value + "s.");
-        }
+        //foreach (var item in timerDictionary)
+        //{
+        //    Debug.Log("This is the " + item.Key + "Plane");
+        //    Debug.Log("and the Time count is" + item.Value + "s.");
+        //}
 
         TimerData timerData = new TimerData(
             number,
@@ -173,9 +173,10 @@ public class Timer : MonoBehaviour
             timerDictionary[9],
             timerDictionary[10]
         );
-        using (StreamWriter stream = new StreamWriter(path))
+        using (StreamWriter stream = new StreamWriter(path,true))
         {
             string json = JsonUtility.ToJson(timerData);
+            stream.WriteLine("\n");
             stream.Write(json);
         }
 
