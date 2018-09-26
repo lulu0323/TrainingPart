@@ -21,7 +21,7 @@ public class delay : MonoBehaviour
     public void showthmenu()
     {
         gameObject.SetActive(true);
-        print(Time.time);
+        //print(Time.time);
     }
     public void hidethemenu()
     {
@@ -33,12 +33,12 @@ public class delay : MonoBehaviour
     public void delayshowthemenu()
     {
 
-        print(Time.time);
+        //print(Time.time);
         Invoke("showthmenu", 1);
-        print(Time.time);
+        //print(Time.time);
 
 
-        Debug.Log("invokeTest");
+        //Debug.Log("invokeTest");
 
 
 

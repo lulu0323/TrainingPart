@@ -91,6 +91,7 @@ public class Timer : MonoBehaviour
         }
         else
         {
+            Debug.Log("Timer Stop!");
             isTimer = false;
         }
     }
