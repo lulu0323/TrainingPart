@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17301625, g: 0.2162327, b: 0.29822254, a: 1}
+  m_IndirectSpecularColor: {r: 0.17301613, g: 0.21623251, b: 0.2982222, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -778,7 +778,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c0efdc8f683e458ca5bd05e049ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTimer: 0
+  number: 0
+  name: 
+  path: 
 --- !u!1 &41561630
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,7 +1966,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c0efdc8f683e458ca5bd05e049ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTimer: 0
+  number: 0
+  name: 
+  path: 
 --- !u!1 &117823877
 GameObject:
   m_ObjectHideFlags: 0
@@ -3899,7 +3903,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c0efdc8f683e458ca5bd05e049ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTimer: 0
+  number: 0
+  name: 
+  path: 
 --- !u!1 &322501595
 GameObject:
   m_ObjectHideFlags: 0
@@ -3994,7 +4000,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c0efdc8f683e458ca5bd05e049ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTimer: 0
+  number: 0
+  name: 
+  path: 
 --- !u!1 &347679798
 GameObject:
   m_ObjectHideFlags: 0
@@ -9715,7 +9723,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c0efdc8f683e458ca5bd05e049ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTimer: 0
+  number: 0
+  name: 
+  path: 
 --- !u!1001 &642805338
 Prefab:
   m_ObjectHideFlags: 0
@@ -13818,7 +13828,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c0efdc8f683e458ca5bd05e049ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTimer: 0
+  number: 0
+  name: 
+  path: 
 --- !u!1 &844512455
 GameObject:
   m_ObjectHideFlags: 0
@@ -15337,7 +15349,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c0efdc8f683e458ca5bd05e049ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTimer: 0
+  number: 0
+  name: 
+  path: 
 --- !u!1 &910323363
 GameObject:
   m_ObjectHideFlags: 0
@@ -16055,7 +16069,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c0efdc8f683e458ca5bd05e049ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTimer: 0
+  number: 0
+  name: 
+  path: 
 --- !u!1 &955268626
 GameObject:
   m_ObjectHideFlags: 0
@@ -17301,7 +17317,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c0efdc8f683e458ca5bd05e049ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTimer: 0
+  number: 0
+  name: 
+  path: /Users/Shared/Unity/TrainingPart/TrainingPart/Assets/StreamData
 --- !u!4 &1023989840
 Transform:
   m_ObjectHideFlags: 0
@@ -17580,7 +17598,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c0efdc8f683e458ca5bd05e049ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTimer: 0
+  number: 0
+  name: 
+  path: 
 --- !u!1 &1051202388
 GameObject:
   m_ObjectHideFlags: 0
@@ -25927,7 +25947,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c0efdc8f683e458ca5bd05e049ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTimer: 0
+  number: 0
+  name: 
+  path: 
 --- !u!1 &1542209403
 GameObject:
   m_ObjectHideFlags: 0
@@ -32311,7 +32333,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c0efdc8f683e458ca5bd05e049ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTimer: 0
+  number: 0
+  name: 
+  path: 
 --- !u!1 &1857445152
 GameObject:
   m_ObjectHideFlags: 0

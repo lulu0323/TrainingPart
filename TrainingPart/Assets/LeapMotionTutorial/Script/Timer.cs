@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using System.IO;
 
 [Serializable]
 public class TimerData
 {
     public int playerNumber;
-    public string playerName;
+    public string playerName = "Anonymous";
 
     public float timeEmpty_0;
     public float timeGrabPanel_1;
@@ -59,6 +60,9 @@ public class Timer : MonoBehaviour
 {
     public int number;
     public string name;
+
+    [SerializeField]
+    private string path;
 
     private int currentIndex = 0;
     private float currentTimer = 0f;
@@ -169,7 +173,11 @@ public class Timer : MonoBehaviour
             timerDictionary[9],
             timerDictionary[10]
         );
-        string json = JsonUtility.ToJson(timerData);
+        using (StreamWriter stream = new StreamWriter(path))
+        {
+            string json = JsonUtility.ToJson(timerData);
+            stream.Write(json);
+        }
 
     }
 
