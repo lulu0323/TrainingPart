@@ -2,32 +2,36 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
+
+[Serializable]
+public class TimerData
+{
+    public int playerNumber;
+    public string playerName;
+
+    public float timeEmpty_0;
+    public float timeGrabPanel_1;
+    public float timeEnlargePanel_2;
+    public float timeShrinkPanel_3;
+    public float timeRotatePanel_4;
+    public float timeViewPanel_5;
+    public float timeClosePanel_6;
+    public float timeColorPanel_7;
+    public float timeSizePanel_8;
+    public float timeCollectPanel_9;
+    public float timeBoxPanel_10;
+}
 
 public class Timer : MonoBehaviour
 {
     private int currentIndex = 0;
-    public float currentTimer = 0f;
+    private float currentTimer = 0f;
     bool isTimer = false;
 
+    private TimerData timerData = new TimerData();
     private Dictionary<int, float> timerDictionary = new Dictionary<int, float>();
     //private Dictionary<int,string> nameDictionary = new Dictionary<int, string> ();
-
-
-
-    //public Text ShowTime;//显示计时器时间
-    /*
-    public float t0;
-    public float t1;
-    public float t2;
-    public float t3;
-    public float t4;
-    public float t5;
-    public float t6;
-    public float t7;
-    public float t8;
-    public float t9;
- */
-
     // Use this for initialization
     void Start()
     {
@@ -105,6 +109,22 @@ public class Timer : MonoBehaviour
         EnterPlane(currentIndex - 1);
     }
 
+    public void GetEachTime()
+    {
+        timerData.timeEmpty_0 = timerDictionary[0];
+        timerData.timeGrabPanel_1 = timerDictionary[1];
+        timerData.timeEnlargePanel_2 = timerDictionary[2];
+        timerData.timeShrinkPanel_3 = timerDictionary[3];
+        timerData.timeRotatePanel_4 = timerDictionary[4];
+        timerData.timeViewPanel_5 = timerDictionary[5];
+        timerData.timeClosePanel_6 = timerDictionary[6];
+        timerData.timeColorPanel_7 = timerDictionary[7];
+        timerData.timeSizePanel_8 = timerDictionary[8];
+        timerData.timeCollectPanel_9 = timerDictionary[9];
+        timerData.timeBoxPanel_10 = timerDictionary[10];
+
+    }
+
     public void OnApplicationQuit()
 
     {
@@ -114,6 +134,9 @@ public class Timer : MonoBehaviour
             Debug.Log("This is the " + item.Key + "Plane");
             Debug.Log("and the Time count is" + item.Value + "s.");
         }
+
+        GetEachTime();
+        string json = JsonUtility.ToJson(timerData);
 
     }
 
