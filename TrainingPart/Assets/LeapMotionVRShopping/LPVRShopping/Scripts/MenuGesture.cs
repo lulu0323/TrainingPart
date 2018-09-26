@@ -122,7 +122,7 @@ public class MenuGesture : GestureBase
             if(detectHand.CheckWithDetails(m_GestureDetail))
             {
                 m_IsHandAllExtended = true;
-                Debug.Log("success");
+                //Debug.Log("success");
                 //m_menumanager.PresentingthisObjectMenu();
                 alreadyFist = false;
                 //reset
