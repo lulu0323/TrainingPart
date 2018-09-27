@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TryingOn : MonoBehaviour {
+public class TryOn : MonoBehaviour {
 
     private Vector3 pointZero;
     private Vector3 pointCart;
     private Vector3 pointMove;
     public GameObject Cart;
+   // public GameObject c1;
     public GameObject c1;
-    //public GameObject c1;
     public Vector3 a;
     public Vector3 startPos;
 
