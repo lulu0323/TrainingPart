@@ -23,28 +23,30 @@ public class TryOn : MonoBehaviour {
 
     public void Update()
     {
-        pointMove = gameObject.transform.position;           //实时获取物体的位置
+        pointMove = c1.transform.position;           //实时获取物体的位置
         pointCart = Cart.GetComponent<Transform>().position; //实时获取购物车的位置
 
 
-        if (Vector3.Distance(transform.position, pointCart) < 0.1)
+        if (Vector3.Distance(pointMove, pointCart) < 0.1)
         {
             c1.SetActive(false);                                    //销毁物体
-            //AudioSource.PlayClipAtPoint(clip, transform.position);   //音效
+                                                                    //AudioSource.PlayClipAtPoint(clip, transform.position);   //音效
+
+            Invoke("Showthecube", 2);
         }
     }
-    public void showthecube()
+    public void Showthecube()
     {
         c1.SetActive(true);
         c1.transform.position = a;
         c1.transform.rotation = Quaternion.identity;
         c1.transform.localScale = startPos;
     }
-    public void delayshowthecube()
-    {
+    //public void Delayshowthecube()
+   // {
 
         //print(Time.time);
-        Invoke("showthecube", 2);
+     //   Invoke("Showthecube", 2);
         //print(Time.time);
 
 
@@ -52,5 +54,5 @@ public class TryOn : MonoBehaviour {
 
 
 
-    }
+   // }
 }

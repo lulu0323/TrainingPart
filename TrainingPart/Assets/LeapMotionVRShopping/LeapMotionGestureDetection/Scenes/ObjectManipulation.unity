@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17301595, g: 0.21623227, b: 0.2982219, a: 1}
+  m_IndirectSpecularColor: {r: 0.17301625, g: 0.2162327, b: 0.29822254, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2339,7 +2339,7 @@ Transform:
   m_GameObject: {fileID: 139375040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.792, y: 1.091, z: 0.31}
-  m_LocalScale: {x: 0.37107092, y: 0.37107092, z: 0.37107092}
+  m_LocalScale: {x: 0.12614411, y: 0.096986175, z: 0.1169307}
   m_Children: []
   m_Father: {fileID: 477403964}
   m_RootOrder: 3
@@ -4856,7 +4856,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 390594980}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -13303,7 +13303,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 816825948}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -25058,7 +25058,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 1559779373}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -31840,7 +31840,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 1880187351}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
