@@ -11,6 +11,7 @@ public class TimerData
     public int playerNumber;
     public string playerName = "Anonymous";
 
+
     public float timeEmpty_0;
     public float timeGrabPanel_1;
     public float timeEnlargePanel_2;
@@ -175,7 +176,7 @@ public class Timer : MonoBehaviour
         );
         using (StreamWriter stream = new StreamWriter(path, true))
         {
-            string json = JsonUtility.ToJson(timerData);
+            string json = JsonUtility.ToJson(timerData, true);
             json += "\n";
             //stream.WriteLine("\n");
             stream.Write(json);
