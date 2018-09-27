@@ -17,7 +17,7 @@ public class MoveCube : MonoBehaviour
     {
         // c1.SetActive(true);
         //a = this.transform.position;
-        startPos = transform.localScale;
+        //startPos = transform.localScale;
     }
 
     // Update is called once per frame
