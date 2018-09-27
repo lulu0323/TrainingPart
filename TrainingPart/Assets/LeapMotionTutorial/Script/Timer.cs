@@ -173,10 +173,11 @@ public class Timer : MonoBehaviour
             timerDictionary[9],
             timerDictionary[10]
         );
-        using (StreamWriter stream = new StreamWriter(path,true))
+        using (StreamWriter stream = new StreamWriter(path, true))
         {
             string json = JsonUtility.ToJson(timerData);
-            stream.WriteLine("\n");
+            json += "\n";
+            //stream.WriteLine("\n");
             stream.Write(json);
         }
 
