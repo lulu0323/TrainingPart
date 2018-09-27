@@ -8,6 +8,10 @@ public class TryingOn : MonoBehaviour {
     private Vector3 pointCart;
     private Vector3 pointMove;
     public GameObject Cart;
+    public GameObject c1;
+    public GameObject c1;
+    public Vector3 a;
+    public Vector3 startPos;
 
     //public AudioClip clip;
 
@@ -25,8 +29,28 @@ public class TryingOn : MonoBehaviour {
 
         if (Vector3.Distance(transform.position, pointCart) < 0.1)
         {
-            gameObject.SetActive(false);                                    //销毁物体
+            c1.SetActive(false);                                    //销毁物体
             //AudioSource.PlayClipAtPoint(clip, transform.position);   //音效
         }
+    }
+    public void showthecube()
+    {
+        c1.SetActive(true);
+        c1.transform.position = a;
+        c1.transform.rotation = Quaternion.identity;
+        c1.transform.localScale = startPos;
+    }
+    public void delayshowthecube()
+    {
+
+        //print(Time.time);
+        Invoke("showthecube", 2);
+        //print(Time.time);
+
+
+        //Debug.Log("invokeTest");
+
+
+
     }
 }
