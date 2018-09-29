@@ -10,6 +10,7 @@ public class TimerData
 {
     public int playerNumber;
     public string playerName = "Anonymous";
+    public string playerDate = "20180901";
 
 
     public float timeEmpty_0;
@@ -27,6 +28,7 @@ public class TimerData
     public TimerData(
         int number,
         string name,
+        string date,
         float m_timeEmpty_0,
         float m_timeGrabPanel_1,
         float m_timeEnlargePanel_2,
@@ -42,6 +44,7 @@ public class TimerData
     {
         playerNumber = number;
         playerName = name;
+        playerDate = date;
 
         timeEmpty_0 = m_timeEmpty_0;
         timeGrabPanel_1 = m_timeGrabPanel_1;
@@ -61,6 +64,7 @@ public class Timer : MonoBehaviour
 {
     public int number;
     public string name;
+    public string date;
 
     [SerializeField]
     private string path;
@@ -162,6 +166,7 @@ public class Timer : MonoBehaviour
         TimerData timerData = new TimerData(
             number,
             name,
+            date,
             timerDictionary[0],
             timerDictionary[1],
             timerDictionary[2],
