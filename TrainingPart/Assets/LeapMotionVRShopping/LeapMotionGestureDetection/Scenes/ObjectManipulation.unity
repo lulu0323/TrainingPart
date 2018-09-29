@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17301625, g: 0.2162327, b: 0.29822254, a: 1}
+  m_IndirectSpecularColor: {r: 0.17301595, g: 0.21623227, b: 0.2982219, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1125,6 +1125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   name: 
+  date: 
   path: 
 --- !u!1 &41561630
 GameObject:
@@ -3017,6 +3018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   name: 
+  date: 
   path: 
 --- !u!1 &114310549
 GameObject:
@@ -3978,7 +3980,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 210334930}
-  m_Text: Add to box
+  m_Text: 10.Add to box
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -5050,15 +5052,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4481135769011950, guid: d53bbce24b78fb742ba7b93ce8a36f86, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.580369
+      value: 1.5813
       objectReference: {fileID: 0}
     - target: {fileID: 4481135769011950, guid: d53bbce24b78fb742ba7b93ce8a36f86, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.1789999
+      value: 0.17899
       objectReference: {fileID: 0}
     - target: {fileID: 4481135769011950, guid: d53bbce24b78fb742ba7b93ce8a36f86, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.4914045
+      value: -0.49205
       objectReference: {fileID: 0}
     - target: {fileID: 4481135769011950, guid: d53bbce24b78fb742ba7b93ce8a36f86, type: 2}
       propertyPath: m_LocalRotation.x
@@ -5102,11 +5104,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4481135769011950, guid: d53bbce24b78fb742ba7b93ce8a36f86, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1.7301267
+      value: 4.231905
       objectReference: {fileID: 0}
     - target: {fileID: 4481135769011950, guid: d53bbce24b78fb742ba7b93ce8a36f86, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.75779456
+      value: 1.0093853
       objectReference: {fileID: 0}
     - target: {fileID: 4481135769011950, guid: d53bbce24b78fb742ba7b93ce8a36f86, type: 2}
       propertyPath: m_LocalScale.z
@@ -5116,6 +5118,33 @@ Prefab:
         type: 2}
       propertyPath: m_Text
       value: This is a cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 102630856385811638, guid: d53bbce24b78fb742ba7b93ce8a36f86,
+        type: 2}
+      propertyPath: m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 102630856385811638, guid: d53bbce24b78fb742ba7b93ce8a36f86,
+        type: 2}
+      propertyPath: m_FontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4918707043880540, guid: d53bbce24b78fb742ba7b93ce8a36f86, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.0092298975
+      objectReference: {fileID: 0}
+    - target: {fileID: 102630856385811638, guid: d53bbce24b78fb742ba7b93ce8a36f86,
+        type: 2}
+      propertyPath: m_Color.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110458179407002, guid: d53bbce24b78fb742ba7b93ce8a36f86, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.40281332
+      objectReference: {fileID: 0}
+    - target: {fileID: 1753941753861398, guid: d53bbce24b78fb742ba7b93ce8a36f86, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d53bbce24b78fb742ba7b93ce8a36f86, type: 2}
@@ -5746,6 +5775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   name: 
+  date: 
   path: 
 --- !u!1 &322501595
 GameObject:
@@ -5856,6 +5886,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   name: 
+  date: 
   path: 
 --- !u!1 &347679798
 GameObject:
@@ -6974,7 +7005,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 402758804}
-  m_Text: Enlarge
+  m_Text: 2.Enlarge
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -9724,7 +9755,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 528185346}
-  m_Text: Rotate
+  m_Text: 4.Rotate
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -11921,6 +11952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   name: 
+  date: 
   path: 
 --- !u!4 &642805339
 Transform:
@@ -12778,7 +12810,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 674931384}
-  m_Text: Change size
+  m_Text: 8.Change size
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -14585,7 +14617,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 728298685}
-  m_Text: Collect
+  m_Text: 9.Collect
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -17210,6 +17242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   name: 
+  date: 
   path: 
 --- !u!1 &844512455
 GameObject:
@@ -18903,6 +18936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   name: 
+  date: 
   path: 
 --- !u!1 &910323363
 GameObject:
@@ -19936,6 +19970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   name: 
+  date: 
   path: 
 --- !u!1 &949658112
 GameObject:
@@ -20159,7 +20194,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 958633692}
-  m_Text: 7 Change the Object color from red to green to blue
+  m_Text: 7 Change the Object color
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -21687,6 +21722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 3
   name: Jet
+  date: 
   path: C:\Users\Public\Documents\Unity Projects\OOO\TrainingPart\TrainingPart\Assets\StreamData\Records.json
 --- !u!4 &1023989840
 Transform:
@@ -21981,6 +22017,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   name: 
+  date: 
   path: 
 --- !u!1 &1050871420
 GameObject:
@@ -23636,7 +23673,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1127210850}
-  m_Text: View details
+  m_Text: 5.View details
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -24290,7 +24327,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1156904136}
-  m_Text: Shrink
+  m_Text: 3.Shrink
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -25129,7 +25166,7 @@ Prefab:
     - target: {fileID: 102811249967251106, guid: b004367100f78458da09c11160a81e32,
         type: 2}
       propertyPath: m_Text
-      value: 7 Change the Object color from red to green to bluect
+      value: 7 Change the Object color
       objectReference: {fileID: 0}
     - target: {fileID: 1752340676897732, guid: b004367100f78458da09c11160a81e32, type: 2}
       propertyPath: m_IsActive
@@ -28245,7 +28282,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1321692655}
-  m_Text: 8 Change the Object size from small to medium to large
+  m_Text: '8 Change the Object size '
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -29931,7 +29968,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1428812280}
-  m_Text: Grab
+  m_Text: 1.Grab
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -30203,7 +30240,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1471474590}
-  m_Text: Close details
+  m_Text: 6.Close details
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -31628,6 +31665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   name: 
+  date: 
   path: 
 --- !u!1 &1542209403
 GameObject:
@@ -37754,7 +37792,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1789523860}
-  m_Text: Change color
+  m_Text: 7.Change color
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -39085,6 +39123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   name: 
+  date: 
   path: 
 --- !u!1 &1857445152
 GameObject:
@@ -39184,7 +39223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1862395996
 Transform:
   m_ObjectHideFlags: 0
@@ -40595,7 +40634,7 @@ Prefab:
     - target: {fileID: 102811249967251106, guid: b004367100f78458da09c11160a81e32,
         type: 2}
       propertyPath: m_Text
-      value: 8 Change the Object size from small to medium to large
+      value: '8 Change the Object size '
       objectReference: {fileID: 0}
     - target: {fileID: 1752340676897732, guid: b004367100f78458da09c11160a81e32, type: 2}
       propertyPath: m_IsActive
