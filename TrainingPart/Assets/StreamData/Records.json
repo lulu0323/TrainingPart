@@ -874,3 +874,35 @@
     "timeCollectPanel_9": 2.0663771629333498,
     "timeBoxPanel_10": 2.111758232116699
 }
+{
+    "playerNumber": 3,
+    "playerName": "Jet",
+    "playerDate": "20180901",
+    "timeEmpty_0": 568.7073364257813,
+    "timeGrabPanel_1": 47.72922897338867,
+    "timeEnlargePanel_2": 22.717453002929689,
+    "timeShrinkPanel_3": 20.853778839111329,
+    "timeRotatePanel_4": 20.852365493774415,
+    "timeViewPanel_5": 56.44648742675781,
+    "timeClosePanel_6": 0.0,
+    "timeColorPanel_7": 0.0,
+    "timeSizePanel_8": 0.0,
+    "timeCollectPanel_9": 0.0,
+    "timeBoxPanel_10": 0.0
+}
+{
+    "playerNumber": 3,
+    "playerName": "Jet",
+    "playerDate": "",
+    "timeEmpty_0": 31.653362274169923,
+    "timeGrabPanel_1": 13.32578182220459,
+    "timeEnlargePanel_2": 5.945290565490723,
+    "timeShrinkPanel_3": 1.6922184228897095,
+    "timeRotatePanel_4": 4.3714680671691898,
+    "timeViewPanel_5": 29.241703033447267,
+    "timeClosePanel_6": 12.757826805114746,
+    "timeColorPanel_7": 31.788593292236329,
+    "timeSizePanel_8": 38.3799934387207,
+    "timeCollectPanel_9": 20.583736419677736,
+    "timeBoxPanel_10": 22.666244506835939
+}
