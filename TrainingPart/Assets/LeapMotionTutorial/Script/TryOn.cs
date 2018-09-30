@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//手势
 public class TryOn : MonoBehaviour {
 
     private Vector3 pointZero;
