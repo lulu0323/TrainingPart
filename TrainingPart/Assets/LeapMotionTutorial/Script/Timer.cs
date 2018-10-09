@@ -8,6 +8,7 @@ using System.IO;
 [Serializable]
 public class TimerData
 {
+    public string playerMode = "mode";
     public int playerNumber;
     public string playerName = "Anonymous";
     public string playerDate = "20180901";
@@ -26,6 +27,7 @@ public class TimerData
     public float timeBoxPanel_10;
 
     public TimerData(
+        string mode,
         int number,
         string name,
         string date,
@@ -42,6 +44,7 @@ public class TimerData
         float m_timeBoxPanel_10
     )
     {
+        playerMode = mode;
         playerNumber = number;
         playerName = name;
         playerDate = date;
@@ -62,6 +65,7 @@ public class TimerData
 
 public class Timer : MonoBehaviour
 {
+    public string mode;
     public int number;
     public string name;
     public string date;
@@ -164,6 +168,7 @@ public class Timer : MonoBehaviour
         //}
 
         TimerData timerData = new TimerData(
+            mode,
             number,
             name,
             date,
@@ -180,20 +185,24 @@ public class Timer : MonoBehaviour
             timerDictionary[10]
         );
 
-        //遍历字典中的键值
-        foreach (int val in timerDictionary.Values)
+       
 
+        for (int i = 0;i< timerDictionary.Count;i++)
         {
-
-            Console.WriteLine(val);
-            if(val >=1)
+            Debug.Log("进入循环!");
+            //Debug.Log(timerDictionary[i]);
+            if (timerDictionary[i] >= 1)
             {
-                timerDictionary[key]=val-1;
+                Debug.Log("进入判断");
+              
+                timerDictionary[i] = timerDictionary[i] - 1;
+               Debug.Log(timerDictionary[i]);
+               // Console.WriteLine(timerDictionary.Values);
+                // Console.WriteLine("key" + key.ToString() + ":" + key.ToString());
             }
-
-            Console.WriteLine(val);
-
+            
         }
+            
 
         using (StreamWriter stream = new StreamWriter(path, true))
         {
@@ -206,3 +215,38 @@ public class Timer : MonoBehaviour
     }
 
 }
+
+
+//遍历字典中的键值
+
+/* foreach (var time in timerDictionary)
+
+ {
+
+     Console.WriteLine(time.Key);
+     Console.WriteLine(time.Value);
+     if (time.Value >= 1)
+     {
+         time.Value = time.Value - 1;
+     }
+
+     Console.WriteLine(time.Value);
+
+ }*/
+
+/** int[] keys = new int[timerDictionary.Count];
+ timerDictionary.Keys.CopyTo(keys, 0);
+ foreach (int key in keys)
+ {
+    // Console.WriteLine("key" + key.ToString() + ":" + key.ToString());
+     //if (timerDictionary.ContainsKey(key))
+        // Console.WriteLine(timerDictionary[key]);
+     
+    // else
+         //throw new Exception(String.Format("key {0} was not found", key));
+     if (timerDictionary[key] >= 1)
+     {
+
+        timerDictionary[key] = timerDictionary[key] - 1;
+        Console.WriteLine("key" + key.ToString() + ":" + key.ToString());
+     }**/
