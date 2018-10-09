@@ -179,9 +179,25 @@ public class Timer : MonoBehaviour
             timerDictionary[9],
             timerDictionary[10]
         );
+
+        //遍历字典中的键值
+        foreach (int val in timerDictionary.Values)
+
+        {
+
+            Console.WriteLine(val);
+            if(val >=1)
+            {
+                timerDictionary[key]=val-1;
+            }
+
+            Console.WriteLine(val);
+
+        }
+
         using (StreamWriter stream = new StreamWriter(path, true))
         {
-            string json = JsonUtility.ToJson(timerData, true);
+            string json = JsonUtility.ToJson(timerData , true);
             json += "\n";
             //stream.WriteLine("\n");
             stream.Write(json);
