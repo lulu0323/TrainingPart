@@ -13,6 +13,7 @@ public class TryOn : MonoBehaviour {
     public Vector3 a;
     public Vector3 startPos;
 
+
     //public AudioClip clip;
 
 
@@ -30,7 +31,7 @@ public class TryOn : MonoBehaviour {
         if (Vector3.Distance(pointMove, pointCart) < 0.1)
         {
             c1.SetActive(false);                                    //销毁物体
-                                                                    //AudioSource.PlayClipAtPoint(clip, transform.position);   //音效
+            Cart.GetComponent<MeshRenderer>().materials[0].color = Color.black;                                                  //AudioSource.PlayClipAtPoint(clip, transform.position);   //音效
 
             Invoke("Showthecube", 2);
         }
@@ -41,6 +42,7 @@ public class TryOn : MonoBehaviour {
         c1.transform.position = a;
         c1.transform.rotation = Quaternion.identity;
         c1.transform.localScale = startPos;
+      
     }
     //public void Delayshowthecube()
    // {

@@ -161,11 +161,23 @@ public class Timer : MonoBehaviour
 
     {
         Debug.Log("This is the end of game!");
-        //foreach (var item in timerDictionary)
-        //{
-        //    Debug.Log("This is the " + item.Key + "Plane");
-        //    Debug.Log("and the Time count is" + item.Value + "s.");
-        //}
+
+
+        for (int i = 0; i < timerDictionary.Count; i++)
+        {
+            Debug.Log("进入循环!");
+            //Debug.Log(timerDictionary[i]);
+            if (timerDictionary[i] >= 1)
+            {
+                Debug.Log("进入判断");
+
+                timerDictionary[i] = timerDictionary[i] - 1;
+                Debug.Log(timerDictionary[i]);
+                // Console.WriteLine(timerDictionary.Values);
+                // Console.WriteLine("key" + key.ToString() + ":" + key.ToString());
+            }
+
+        }
 
         TimerData timerData = new TimerData(
             mode,
@@ -185,25 +197,7 @@ public class Timer : MonoBehaviour
             timerDictionary[10]
         );
 
-       
-
-        for (int i = 0;i< timerDictionary.Count;i++)
-        {
-            Debug.Log("进入循环!");
-            //Debug.Log(timerDictionary[i]);
-            if (timerDictionary[i] >= 1)
-            {
-                Debug.Log("进入判断");
-              
-                timerDictionary[i] = timerDictionary[i] - 1;
-               Debug.Log(timerDictionary[i]);
-               // Console.WriteLine(timerDictionary.Values);
-                // Console.WriteLine("key" + key.ToString() + ":" + key.ToString());
-            }
-            
-        }
-            
-
+     
         using (StreamWriter stream = new StreamWriter(path, true))
         {
             string json = JsonUtility.ToJson(timerData , true);
