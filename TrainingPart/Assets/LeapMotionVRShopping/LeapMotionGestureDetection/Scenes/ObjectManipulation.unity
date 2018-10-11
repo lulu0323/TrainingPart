@@ -6024,7 +6024,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 347679798}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: bd0c145ac5e3d7246825f7e3ab2a0342, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 35c6c4d5a4a66144aab08ae2d60b3484, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -8330,7 +8330,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 453649427}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 533ddfb6bd9f1f84f85e09336106c613, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: df353d3d59f1d614e9d19c4bedf57db0, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -8930,7 +8930,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 486228674}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: e56e9426bf43bea42a938b73e9d3de4e, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: da5cefd0e3130464db8976c285e9cdba, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -9302,7 +9302,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 502475938}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 533ddfb6bd9f1f84f85e09336106c613, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: df353d3d59f1d614e9d19c4bedf57db0, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -12006,7 +12006,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 636967944}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: bd0c145ac5e3d7246825f7e3ab2a0342, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 35c6c4d5a4a66144aab08ae2d60b3484, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -19665,7 +19665,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 917983221}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: e56e9426bf43bea42a938b73e9d3de4e, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: da5cefd0e3130464db8976c285e9cdba, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -21837,8 +21837,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mode: "\u624B\u52BF"
-  number: 2
-  name: "\u94B1\u70E8\u5C27"
+  number: 4
+  name: "\u6797\u96EF\u6656"
   date: 20181011
   path: C:\Users\Public\Documents\Unity Projects\OOO\TrainingPart\TrainingPart\Assets\StreamData\Records.json
 --- !u!4 &1023989840
