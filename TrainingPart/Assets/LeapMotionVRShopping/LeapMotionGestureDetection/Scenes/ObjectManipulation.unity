@@ -21837,9 +21837,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mode: "\u624B\u52BF"
-  number: 1
-  name: "\u97E9\u5929\u90A2"
-  date: 20181010
+  number: 2
+  name: "\u94B1\u70E8\u5C27"
+  date: 20181011
   path: C:\Users\Public\Documents\Unity Projects\OOO\TrainingPart\TrainingPart\Assets\StreamData\Records.json
 --- !u!4 &1023989840
 Transform:
